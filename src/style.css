@@ -168,7 +168,7 @@ html, head, body {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 20s slider infinite;
+  animation: 12s slider infinite;
 }
 /* end root stuff */
 .btn {
