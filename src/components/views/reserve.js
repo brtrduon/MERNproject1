@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Sidebar from './sidebar';
 
 class Reserve extends React.Component {
