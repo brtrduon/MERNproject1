@@ -9,11 +9,12 @@ import Location from './views/Location'
 import Reserve from './views/Reserve'
 
 import Header from './Header'
+import Footer from './Footer'
 import history from '../history'
 
 const App = () => {
     return (
-        <div>
+        <div className='wrapper'>
             <Router history={history}>
                 <div>
                     <Header />
@@ -25,6 +26,7 @@ const App = () => {
                         <Route path='/location' exact component={Location} />
                         <Route path='/reserve' exact component={Reserve} />
                     </Switch>
+                    <Footer />
                 </div>
             </Router>
         </div>
