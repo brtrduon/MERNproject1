@@ -189,6 +189,9 @@ html, head, body {
   width: 370px;
 }
 
+.form {
+  width: 50%;
+}
   
 .footer p {
   /* vertical align text */
