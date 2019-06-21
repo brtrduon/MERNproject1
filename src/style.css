@@ -74,6 +74,7 @@ html, head, body {
 .body {
   /* position: relative;
   left: 20%; */
+  height: 100vh;
   width: 70%;
   padding-left: 20%;
   background-color: rgb(102, 36, 64, 0.2);
@@ -117,10 +118,12 @@ html, head, body {
     left: -400%;
   }
 }
+
 .slider {
   overflow: hidden;
   padding-bottom: 1.5%;
 }
+
 .slider figure img {
   min-height: 825px;
   min-width: 810px;
@@ -128,6 +131,7 @@ html, head, body {
   max-width: 810px;
   float: left;
 }
+
 .slider figure {
   position: relative;
   width: 1000%;
@@ -137,6 +141,54 @@ html, head, body {
   /* font-size: 0; */
   animation: 12s slider infinite;
 }
+
+.middle {
+  border-style: dashed;
+  border-color: rgb(178, 142, 158, 0.4) transparent rgb(178, 142, 158, 0.4) transparent;
+  border-width: 2px;
+  margin: 15px 0px 15px 0px;
+  width: 60%;
+}
+
+.middle p {
+  margin: 10px 0px 10px 0px;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+.lfood {
+  display: inline-block;
+  height: 310px;
+  width: 360px;
+  margin: 0px 15px 10px 0px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  transition: 0.5s;
+}
+
+.lfood:hover {
+  height: 320px;
+  width: 370px;
+}
+
+.rfood {
+  display: inline-block;
+  height: 310px;
+  width: 360px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  transition: 0.5s;
+}
+
+.rfood:hover {
+  height: 320px;
+  width: 370px;
+}
+
   
 .footer p {
   /* vertical align text */
