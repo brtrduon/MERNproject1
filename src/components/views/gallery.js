@@ -19,6 +19,8 @@ const Gallery = () => {
             <img className='rfood' src='./../../../assets/img/8.jpg' alt='8.jpg' />
             <img className='lfood' src='./../../../assets/img/9.jpg' alt='9.jpg' />
             <img className='rfood' src='./../../../assets/img/10.jpg' alt='10.jpg' />
+            <br></br>
+            <br></br>
         </div>
     )
 }

@@ -22,28 +22,34 @@ link {
   font-style: none;
 }
 
-html, head, body {
+html{
   padding: 0 !important; 
   margin: 0 !important;
   height: 100%;
   width: 100%;
 }
 
-.wrapper, .footer {
+.wrapper, .footer, .body {
   background: linear-gradient(rgb(102, 36, 64), rgb(25, 6, 14));
   width: 100%;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-.wrapper {
-  min-height: 100vh;
+.wrapper, .body {
+  height: 100%;
 }
 
 .logo {
   width: 80%;
   position: relative;
-  top: 5vh;
+  top: 3vh;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
 }
 
 /* navbar / header */
@@ -81,7 +87,7 @@ html, head, body {
 }
 
 .profile_pic {
-  height: 45%;
+  height: 40%;
   width: 50%;
   border-style: solid;
   border-color: white;
@@ -135,10 +141,7 @@ html, head, body {
 .slider figure {
   position: relative;
   width: 1000%;
-  /* margin: 0;
-  left: 0; */
   text-align: left;
-  /* font-size: 0; */
   animation: 12s slider infinite;
 }
 
@@ -207,10 +210,22 @@ iframe:hover {
   width: 460px;
   height: 310px;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  /* max-height: 4%; */
+  height: 5vh;
+  padding-top: 1vh;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white transparent transparent transparent;
+  background-color: rgb(25, 6, 14);
+}
   
 .footer p {
   /* vertical align text */
-  
+
   text-align: center;
   height: 5vh;
 }
