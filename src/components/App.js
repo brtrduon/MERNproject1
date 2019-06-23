@@ -2,14 +2,14 @@ import React from 'react'
 import { Router, Route, Switch } from 'react-router-dom'
 
 import Index from './views'
-import About from './views/About'
-import Confirmation from './views/Confirmation'
-import Gallery from './views/Gallery'
+import About from './views/about'
+import Confirmation from './views/confirmation'
+import Gallery from './views/gallery'
 import Location from './views/Location'
-import Reserve from './views/Reserve'
+import Reserve from './views/reserve'
 
-import Header from './Header'
-import Footer from './Footer'
+import Header from './header'
+import Footer from './footer'
 import history from '../history'
 
 const App = () => {
