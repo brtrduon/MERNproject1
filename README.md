@@ -1,3 +1,7 @@
-Note to self: for EC2 deployment of standalone React.js apps
+You need npm (or some other equivalent JavaScript package manager such as Yarn) to install the dependencies prior to running.
 
-pm2 start node_modules/react-scripts/scripts/start.js --name "myapp"
+TO INSTALL:
+-Run JS package manager command to install dependencies (e.g. "npm install").
+
+TO RUN:
+-Use JS package manger to run start script (e.g. "npm start").
