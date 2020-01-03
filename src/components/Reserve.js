@@ -46,12 +46,15 @@ class Reserve extends Component {
   onSubmit = e => {
     e.preventDefault();
 
-    this.props.reserve(
-      this.state.first_name,
-      this.state.last_name,
-      this.state.phone_number,
-      this.state.party_size
-    )
+    const formValues = {
+      first_name: this.state.first_name,
+      last_name: this.state.last_name,
+      phone_number: this.state.phone_number,
+      party_size: this.state.party_size
+    }
+
+    this.props.reserve(formValues)
+    
   }
 
   render() {

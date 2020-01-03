@@ -1,0 +1,2 @@
+export const RESERVE = 'RESERVE';
+export const GET_RESERVATION = 'GET_RESERVATION';
