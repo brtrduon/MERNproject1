@@ -1,27 +1,23 @@
-import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 
 import { images } from '../assets/images';
 
 const Header = () => {
   return (
-    <Fragment>
-      <li className='' key={1}>
-        <Link className='' to='/'><img className='' src={images.logo} alt='logo.png' /></Link>
-      </li>,
-      <li className='' key={2}>
-        <Link className='' to='/about'>ABOUT</Link>
-      </li>,
-      <li className='' key={3}>
-        <Link className='' to='/location'>LOCATION</Link>
-      </li>,
-      <li className='' key={4}>
-        <Link className='' to='/gallery'>GALLERY</Link>
-      </li>,
-      <li className='' key={5}>
-        <Link className='' to='/reserve'>RESERVATIONS</Link>
-      </li>
-    </Fragment>
+    <Navbar bg="light" expand="lg">
+      <Nav.Link href='/'><img src={images.logo} alt='logo.png' /></Nav.Link>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/location">Location</Nav.Link>
+          <Nav.Link href="/gallery">Gallery</Nav.Link>
+          <Nav.Link href="/reserve">Reservations</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   )
 };
 
