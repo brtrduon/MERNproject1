@@ -1,4 +1,4 @@
-import { RESERVE, GET_RESERVATION } from './types';
+import { RESERVE, GET_RESERVATION, DELETE_RESERVATION } from './types';
 
 export const reserve = formValues => async dispatch => {
   try {
@@ -31,6 +31,18 @@ export const getReservations = () => async dispatch => {
     dispatch({
       type: GET_RESERVATION,
       payload: reserveData
+    })
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export const deleteReservation = () => async dispatch => {
+  try {
+    await localStorage.removeItem('kitchenReservation')
+
+    dispatch({
+      type: DELETE_RESERVATION
     })
   } catch (error) {
     console.log(error)

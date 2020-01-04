@@ -4,12 +4,12 @@ import { Router, Route, Switch } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 
-import Index from './Index';
+import Home from './Home';
 import About from './About';
 import Gallery from './Gallery';
 import Location from './Location';
 import Reserve from './Reserve';
-// might need to change the way that history is being imported if error is thrown
+
 import history from '../history';
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
         <div>
           <Header />
           <Switch>
-            <Route path='/' exact component={Index} />
+            <Route path='/' exact component={Home} />
             <Route path='/about' exact component={About} />
             <Route path='/gallery' exact component={Gallery} />
             <Route path='/location' exact component={Location} />

@@ -1,21 +1,28 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { getReservations } from '../redux/actions';
+import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
-class Header extends Component {
-  componentDidMount() {
-    this.props.getReservations();
-  }
+import { images } from '../assets/images';
 
-  render() {
-    return <div>Header</div>
-  };
+const Header = () => {
+  return (
+    <Fragment>
+      <li className='' key={1}>
+        <Link className='' to='/'><img className='' src={images.logo} alt='logo.png' /></Link>
+      </li>,
+      <li className='' key={2}>
+        <Link className='' to='/about'>ABOUT</Link>
+      </li>,
+      <li className='' key={3}>
+        <Link className='' to='/location'>LOCATION</Link>
+      </li>,
+      <li className='' key={4}>
+        <Link className='' to='/gallery'>GALLERY</Link>
+      </li>,
+      <li className='' key={5}>
+        <Link className='' to='/reserve'>RESERVATIONS</Link>
+      </li>
+    </Fragment>
+  )
 };
 
-const mapStateToProps = state => {
-  return {
-    reserveData: state.reserveData
-  }
-}
-
-export default connect(mapStateToProps, { getReservations })(Header);
+export default Header;
