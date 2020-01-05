@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardDeck } from 'react-bootstrap';
 
@@ -6,7 +6,7 @@ import '../assets/index.css';
 
 const Footer = () => {
   return (
-    <Fragment>
+    <div className='container'>
       <CardDeck>
         <Card border='light'>
           <Card.Body>
@@ -48,12 +48,12 @@ const Footer = () => {
         <Card border='light'>
           <Card.ImgOverlay>
             <Card.Text>
-              <p className='small text-center'>Copyright &copy; 2020 All rights reserved | Jamie's Kitchen</p>
+              <p className='small text-center'>Copyright &copy; Photos by https://unsplash.com/</p>
             </Card.Text>
           </Card.ImgOverlay>
         </Card>
       </CardDeck>
-    </Fragment>
+    </div>
   )
 };
 

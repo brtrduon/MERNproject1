@@ -4,8 +4,8 @@ import { images } from '../assets/images';
 const About = () => {
   return (
     <Fragment>
-      <p className=''>About</p>
-      <p>
+      <h5>About</h5>
+      <p id='p'>
           Jamie's Kitchen is a local restaurant focused on delivering a Japanese-American hybrid culture and food. Founded in the summer of 2014, Jamie's Kitchen has been a mainstay in the Mountain View community, and has since become an icon of cultural unity and diversity. 
       </p>
       <div className=''>

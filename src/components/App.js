@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div>
       <Router history={history}>
-        <div className='container'>
+        <div>
           <Header />
           <Switch>
             <Route path='/' exact component={Home} />
