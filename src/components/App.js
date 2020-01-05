@@ -7,7 +7,6 @@ import Footer from './Footer';
 import Home from './Home';
 import About from './About';
 import Gallery from './Gallery';
-import Location from './Location';
 import Reserve from './Reserve';
 
 import history from '../history';
@@ -16,13 +15,12 @@ const App = () => {
   return (
     <div>
       <Router history={history}>
-        <div>
+        <div className='container'>
           <Header />
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/about' exact component={About} />
             <Route path='/gallery' exact component={Gallery} />
-            <Route path='/location' exact component={Location} />
             <Route path='/reserve' exact component={Reserve} />
           </Switch>
           <Footer />

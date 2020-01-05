@@ -12,7 +12,6 @@ const Header = () => {
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/location">Location</Nav.Link>
           <Nav.Link href="/gallery">Gallery</Nav.Link>
           <Nav.Link href="/reserve">Reservations</Nav.Link>
         </Nav>
