@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardDeck } from 'react-bootstrap';
 
-import '../assets/index.css';
+import '../assets/Footer.css';
 
 const Footer = () => {
   return (
-    <div className='container'>
+    <div className='container pt-5 pb-5'>
       <CardDeck>
         <Card border='light'>
           <Card.Body>
@@ -45,10 +45,10 @@ const Footer = () => {
         </Card>
       </CardDeck>
       <CardDeck>
-        <Card border='light'>
+        <Card border='0'>
           <Card.ImgOverlay>
             <Card.Text>
-              <p className='small text-center'>Copyright &copy; Photos by https://unsplash.com/</p>
+              <p className='small text-center'>&copy; Photos by https://unsplash.com/</p>
             </Card.Text>
           </Card.ImgOverlay>
         </Card>

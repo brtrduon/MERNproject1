@@ -1,0 +1,12 @@
+#carouselItem {
+  position: relative;
+}
+
+#carouselCaption {
+  position: absolute;
+  top: 40%;
+}
+
+#carouselCaption h1 {
+  font-size: 70px;
+}
