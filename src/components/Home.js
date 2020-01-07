@@ -57,7 +57,7 @@ const Home = () => {
                 <h3 className='text-center'>2019</h3>
               </Card.Title>
               <Card.Text>
-                <p className='text-center'>Partnership with one of the state's top-rated chefs.</p>
+                <p className='text-center'>Partnership with one of California's top-rated chefs.</p>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -75,7 +75,7 @@ const Home = () => {
                 <h4 className='text-center'>Lunch</h4>
               </Card.Title>
               <Card.Text>
-                <p className='text-center'>Eat fresh. Drink more. Live long. Stay warm.</p>
+                <p className='text-center'>Eat fresh. Drink more. Live long. Be happy.</p>
               </Card.Text>
             </Card.Body>
           </Card>

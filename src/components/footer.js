@@ -14,7 +14,7 @@ const Footer = () => {
               <h6>About Us</h6>
             </Card.Title>
             <Card.Text>
-              <p id='p' className='small'>Jamie's Kitchen is located in the heart of Mountain View, specializing in Japanese-American cuisine.</p>
+              <p id='p' className='small'>Jamie's Kitchen is located in the heart of Mountain View, specializing in contemporary Japanese-American cuisine.</p>
             </Card.Text>
           </Card.Body>
         </Card>

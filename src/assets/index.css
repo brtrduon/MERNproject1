@@ -20,3 +20,31 @@
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+.menu-item p {
+	font-size: 0.75rem;
+	display: table-cell;
+	width: 14rem;
+	font-style: italic;
+}
+
+.menu-item .mi-meta {
+	display: table;
+	width: 100%;
+}
+
+.menu-item .menu-price {
+	display: table-cell;
+	text-align: right;
+	position: relative;
+	font-size: 1.1rem;
+}
+
+.menu-item .menu-price:after {
+	position: absolute;
+	content: "";
+	width: calc(100% - 63px);
+	left: 0;
+	top: 50%;
+	margin-top: -1px;
+	border-bottom: 2px dotted rgba(212, 68, 68, 0.25);
+}

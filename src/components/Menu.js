@@ -21,32 +21,32 @@ const Menu = () => {
           <Card border='0'>
             <Card.Body>
               <Card.Text>
-                <div class="menu-item">
+                <div className="menu-item">
                   <h5>Orange Chicken</h5>
-                  <div class="mi-meta">
-                    <p>baby corn, bok choy, orange glaze, jasmine rice</p>
-                    <div class="menu-price">$18.95</div>
+                  <div className="mi-meta">
+                    <p className='pb-3'>baby corn, bok choy, orange glaze, jasmine rice</p>
+                    <div className="menu-price">$18.95</div>
                   </div>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <h5>Sirloin and Loaded Potatoes</h5>
-                  <div class="mi-meta">
-                    <p>onion rings, jalapeno, baby broccoli, house-made steak sauce</p>
-                    <div class="menu-price">$20.95</div>
+                  <div className="mi-meta">
+                    <p className='pb-3'>onion rings, jalapeno, baby broccoli, house-made steak sauce</p>
+                    <div className="menu-price">$20.95</div>
                   </div>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <h5>Ginger Crusted Salmon</h5>
-                  <div class="mi-meta">
-                    <p>wasabi mashed potatoes, snap peas, carrots, spicy garlic paste</p>
-                    <div class="menu-price">$25.95</div>
+                  <div className="mi-meta">
+                    <p className='pb-3'>wasabi mashed potatoes, snap peas, carrots, spicy garlic paste</p>
+                    <div className="menu-price">$25.95</div>
                   </div>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <h5>Rum Shrimp Pasta</h5>
-                  <div class="mi-meta">
-                    <p>angel hair, cream of tomato, parmesan</p>
-                    <div class="menu-price">$15.25</div>
+                  <div className="mi-meta">
+                    <p className='pb-3'>angel hair, cream of tomato, parmesan</p>
+                    <div className="menu-price">$15.25</div>
                   </div>
                 </div>
               </Card.Text>
@@ -55,32 +55,32 @@ const Menu = () => {
           <Card border='0'>
             <Card.Body>
               <Card.Text>
-                <div class="menu-item">
+                <div className="menu-item">
                   <h5>Ahi Poke Salad</h5>
-                  <div class="mi-meta">
-                    <p>cucumber, carrot, radish, tuna, garlic, with poke dressing</p>
-                    <div class="menu-price">$13.95</div>
+                  <div className="mi-meta">
+                    <p className='pb-3'>cucumber, carrot, radish, tuna, garlic, with poke dressing</p>
+                    <div className="menu-price">$13.95</div>
                   </div>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <h5>Combination Sashimi</h5>
-                  <div class="mi-meta">
-                    <p>chef's assortment</p>
-                    <div class="menu-price">$16.95</div>
+                  <div className="mi-meta">
+                    <p className='pb-3'>chef's assortment</p>
+                    <div className="menu-price">$16.95</div>
                   </div>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <h5>Firecracker</h5>
-                  <div class="mi-meta">
-                    <p>spicy tuna, unagi, kani kama, bell pepper, jalapeno, and house sweet sauce</p>
-                    <div class="menu-price">$14.95</div>
+                  <div className="mi-meta">
+                    <p className='pb-3'>spicy tuna, unagi, kani kama, bell pepper, jalapeno, and house sweet sauce</p>
+                    <div className="menu-price">$14.95</div>
                   </div>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <h5>Unagi Donburi</h5>
-                  <div class="mi-meta">
-                    <p>Grilled freshwater eel and cooked vegetables over seasoned rice</p>
-                    <div class="menu-price">$24.95</div>
+                  <div className="mi-meta">
+                    <p className='pb-3'>Grilled freshwater eel and cooked vegetables over seasoned rice</p>
+                    <div className="menu-price">$24.95</div>
                   </div>
                 </div>
               </Card.Text>
