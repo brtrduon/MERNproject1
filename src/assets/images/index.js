@@ -5,6 +5,10 @@ const homeCarousel2 = require('./homeCarousel2.jpg');
 const homeCarousel3 = require('./homeCarousel3.jpg');
 const homeMid = require('./homeMid.jpg');
 const homeBot = require('./homeBot.jpg');
+const aboutBanner = require('./aboutBanner.jpg');
+const aboutBot = require('./aboutBot.jpg');
+const menuBanner = require('./menuBanner.jpg');
+const menuBot = require('./menuBot.jpg');
 
 const images = {
   logo,
@@ -13,7 +17,11 @@ const images = {
   homeCarousel2,
   homeCarousel3,
   homeMid,
-  homeBot
+  homeBot,
+  aboutBanner,
+  aboutBot,
+  menuBanner,
+  menuBot,
 };
 
 export { images };

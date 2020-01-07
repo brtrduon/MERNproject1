@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Carousel, Card, CardDeck } from 'react-bootstrap';
 
 import { images } from '../assets/images';
-import '../assets/Home.css';
+import '../assets/index.css';
 
 const Home = () => {
   return (
@@ -37,7 +37,7 @@ const Home = () => {
                 <h3 className='text-center'>2012</h3>
               </Card.Title>
               <Card.Text>
-                <p id='p' className='text-center'>Founded by Yukie Jamie as a local restaurant specializing in traditional Japanese cuisine.</p>
+                <p className='text-center'>Founded by Yukie Jamie as a local restaurant specializing in traditional Japanese cuisine.</p>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -47,7 +47,7 @@ const Home = () => {
                 <h3 className='text-center'>2016</h3>
               </Card.Title>
               <Card.Text>
-                <p id='p' className='text-center'>Cuisine expanded to contemporary Japanese-American bar-style.</p>
+                <p className='text-center'>Cuisine expanded to contemporary Japanese-American bar-style.</p>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -57,7 +57,7 @@ const Home = () => {
                 <h3 className='text-center'>2019</h3>
               </Card.Title>
               <Card.Text>
-                <p id='p' className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <p className='text-center'>Partnership with one of the state's top-rated chefs.</p>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -75,7 +75,7 @@ const Home = () => {
                 <h4 className='text-center'>Lunch</h4>
               </Card.Title>
               <Card.Text>
-                <p id='p' className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <p className='text-center'>Eat fresh. Drink more. Live long. Stay warm.</p>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -85,7 +85,7 @@ const Home = () => {
                 <h4 className='text-center'>Dinner</h4>
               </Card.Title>
               <Card.Text>
-                <p id='p' className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <p className='text-center'>The pleasure of diverse selections where the flavors inebriate you.</p>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -95,7 +95,7 @@ const Home = () => {
                 <h4 className='text-center'>Late Night</h4>
               </Card.Title>
               <Card.Text>
-                <p id='p' className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <p className='text-center'>We have a full bar as well as soft drinks. Alcoholic beverages are served until last call.</p>
               </Card.Text>
             </Card.Body>
           </Card>

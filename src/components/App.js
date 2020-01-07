@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 import Home from './Home';
 import About from './About';
-import Gallery from './Gallery';
+import Menu from './Menu';
 import Reserve from './Reserve';
 
 import history from '../history';
@@ -20,7 +20,7 @@ const App = () => {
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/about' exact component={About} />
-            <Route path='/gallery' exact component={Gallery} />
+            <Route path='/menu' exact component={Menu} />
             <Route path='/reserve' exact component={Reserve} />
           </Switch>
           <Footer />

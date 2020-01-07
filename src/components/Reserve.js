@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import { reserve, getReservations, deleteReservation } from '../redux/actions';
 import history from '../history';
+import '../assets/index.css';
 
 class Reserve extends Component {
   state = {
@@ -20,7 +21,7 @@ class Reserve extends Component {
 
   renderForm = () => {
     return (
-      <div className='form-group'>
+      <div id='form' className='form-group p-4 mt-5'>
         <form onSubmit={this.onFormSubmit}>
           <div className='form-group'>
             <label>First Name</label>
@@ -62,7 +63,7 @@ class Reserve extends Component {
   renderReservationData = () => {
     const reserveData = this.props.reserveData;
     return (
-      <div>
+      <div id='form' classname='p-4 mt-5'>
         <h3>Reservation on file</h3>
         <p>First Name: {reserveData['first_name']}</p>
         <p>Last Name: {reserveData['last_name']}</p>
@@ -122,7 +123,10 @@ class Reserve extends Component {
 
   render() {
     return (
-      this.props.reserveData ? this.renderReservationData() : this.renderForm()
+      <div id='reserve' className='p-5'>
+        <div id='form' classname='p-4 mt-5'></div>
+        {this.props.reserveData ? this.renderReservationData() : this.renderForm()}
+      </div>
     )
   }
 }

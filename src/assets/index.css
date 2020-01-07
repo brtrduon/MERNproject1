@@ -1,0 +1,22 @@
+#carouselItem {
+  position: relative;
+}
+
+#carouselCaption {
+  position: absolute;
+  top: 40%;
+}
+
+#carouselCaption h1 {
+  font-size: 70px;
+}
+
+#reserve {
+  height: 100vh;
+  background-image: url('./images/reserve.jpg');
+}
+
+#form {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
