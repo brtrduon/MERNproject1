@@ -25,17 +25,17 @@ class Reserve extends Component {
         <form onSubmit={this.onFormSubmit}>
           <div className='form-group'>
             <label>First Name</label>
-            <input type='text' name='first_name' className='form-control' required onChange={this.onChange} />
+            <input type='text' name='first_name' id="first_name" className='form-control' required onChange={this.onChange} />
           </div>
 
           <div className='form-group'>
             <label>Last Name</label>
-            <input type='text' name='last_name' className='form-control' required onChange={this.onChange} />
+            <input type='text' name='last_name' id="last_name" className='form-control' required onChange={this.onChange} />
           </div>
 
           <div className='form-group'>
             <label>Phone Number (e.g. 1234567890)</label>
-            <input type='number' name='phone_number' className='form-control' required onChange={this.onChange} />
+            <input type='number' name='phone_number' id="phone_number" className='form-control' required onChange={this.onChange} />
           </div>
           <div className='form-group'>
             {this.state.phone_number_err && this.state.phone_number_err && <p className='alert alert-danger'>Invalid phone number</p>}
@@ -43,7 +43,7 @@ class Reserve extends Component {
 
           <div className='form-group'>
             <label>Party Size</label>
-            <input type='number' name='party_size' className='form-control' required onChange={this.onChange} />
+            <input type='number' name='party_size' id="party_size" className='form-control' required onChange={this.onChange} />
           </div>
           <div className='form-group'>
             {this.state.party_size_err && this.state.party_size_err && <p className='alert alert-danger'>Invalid party size</p>}
