@@ -32,29 +32,20 @@ class Jamieskitchen_test():
     time.sleep(3)
 
   def reservation_test(self):
+    field_list = ["first_name", "last_name", "phone_number", "party_size"]
+    keys_list = ["John", "Doe", "4081234567", "4"]
+
     reservations = self.driver.find_element_by_link_text("Reservations")
     reservations.click()
     time.sleep(3)
 
-    first_name_field = self.driver.find_element_by_id("first_name")
-    first_name_field.clear()
-    first_name_field.send_keys("John")
-    time.sleep(2)
+    for item in field_list:
+      idx = field_list.index(item)
 
-    last_name_field = self.driver.find_element_by_id("last_name")
-    last_name_field.clear()
-    last_name_field.send_keys("Doe")
-    time.sleep(2)
-
-    phone_number_field = self.driver.find_element_by_id("phone_number")
-    phone_number_field.clear()
-    phone_number_field.send_keys("4081234567")
-    time.sleep(2)
-
-    party_size_field = self.driver.find_element_by_id("party_size")
-    party_size_field.clear()
-    party_size_field.send_keys("4")
-    time.sleep(2)
+      field = self.driver.find_element_by_id(item)
+      field.clear()
+      field.send_keys(keys_list[idx])
+      time.sleep(3)
 
     reserve_button = self.driver.find_element_by_class_name("btn")
     reserve_button.click()
