@@ -11,24 +11,15 @@ class Jamieskitchen_test():
     self.driver.implicitly_wait(5)
 
   def navigation_test(self):
-    home = self.driver.find_element_by_link_text("Home")
-    home.click()
-    time.sleep(3)
+    navigation_list = ["Home", "About", "Menu", "Reservations"]
+
+    for item in navigation_list:
+      link = self.driver.find_element_by_link_text(item)
+      link.click()
+      time.sleep(3)
 
     logo = self.driver.find_element_by_xpath("//*[@id='root']/div/div/nav/a/img")
     logo.click()
-    time.sleep(3)
-
-    about = self.driver.find_element_by_link_text("About")
-    about.click()
-    time.sleep(3)
-
-    menu = self.driver.find_element_by_link_text("Menu")
-    menu.click()
-    time.sleep(3)
-
-    reservations = self.driver.find_element_by_link_text("Reservations")
-    reservations.click()
     time.sleep(3)
 
   def reservation_test(self):
